@@ -1,7 +1,7 @@
 title: Lyndsey Ferguson
 description: Software Engineer · Plugin Author · CI/CD Leader
 url: "https://lyndseyferguson.info"
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-feed
