@@ -1,24 +1,14 @@
-title: "Lyndsey Ferguson"
-email: ""
-description: >-
-  Helping teams scale through automation, clarity, and engineering leadership.
-baseurl: ""
+title: Lyndsey Ferguson
+description: Software Engineer · Plugin Author · CI/CD Leader
 url: "https://lyndseyferguson.info"
 theme: minimal-mistakes-jekyll
 
 plugins:
-  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: true
+# Minimal Mistakes settings
+minimal_mistakes_skin: "default"
+markdown: kramdown
+highlighter: rouge
